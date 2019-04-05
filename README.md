@@ -17,3 +17,7 @@ fork元サービス：[https://www.remove.bg/](https://www.remove.bg/)
 　　　　　　　　　制作・著作
 　　　　　　　　　━━━━━━━━━
 　　　　　　　　　　ⓃⒽⓀ
+
+## Pythonの基本
+https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
+
