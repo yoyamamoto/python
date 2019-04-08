@@ -42,12 +42,8 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
     # 仮想環境を抜ける
     (ENV)$ deactivate
 
-
 ### Powershellで仮想環境を一時的に実行する方法
-<code>
-Set-ExecutionPolicy RemoteSigned -Scope Process
-</code>
-
+    Set-ExecutionPolicy RemoteSigned -Scope Process
 
 
 
