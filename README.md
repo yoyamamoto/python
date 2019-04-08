@@ -1,6 +1,4 @@
-# python_hello-world
-Hellow world!
-
+# PythonとGithubを適当に覚えるはろーわーるど
 はろーわーるど
 
 ## やりたい
