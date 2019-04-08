@@ -4,8 +4,9 @@ Hellow world!
 はろーわーるど
 
 ## やりたい
-人物が映った写真をアップロードすると、自動で人物を自動判別して切り抜いてくれる。
+-人物が映った写真をアップロードすると、自動で人物を自動判別して切り抜いてくれる。
 fork元サービス：https://www.remove.bg/
+-スマホで写真を撮ると自動で釣った魚が何か判別してくれる。
 
 ## ざっくりとした流れ
 1. OpenCVをインストールします。https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html
