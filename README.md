@@ -48,6 +48,8 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
     (ENV)$ pip install --upgrade tensorflow
     (ENV)$ python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
 
+https://www.tensorflow.org/install/pip
+
 ### Powershellで仮想環境を一時的に実行する方法
     Set-ExecutionPolicy RemoteSigned -Scope Process
 
