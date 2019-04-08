@@ -19,13 +19,11 @@ Hellow world!
 　　　　　　　　　　ⓃⒽⓀ
 
 ## Pythonの基本
-Pythonビギナーズガイド（導入編）
+- Pythonビギナーズガイド（導入編）
 https://qiita.com/egoa56/items/d39463ee9d8ba032666b
-
-Pythonビギナーズガイド（変数・配列編）
+- Pythonビギナーズガイド（変数・配列編）
 https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
-
-Pythonビギナーズガイド（関数編）
+- Pythonビギナーズガイド（関数編）
 https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
 
 ## gitとGithubを上手く使えなくて挫折しそう
