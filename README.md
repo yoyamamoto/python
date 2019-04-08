@@ -17,7 +17,7 @@
 1. チュートリアル通りに作ります。
 1. なんかいい感じにできます。
 
-※ チュートリアル
+※ TensorFlowで画像認識「〇〇判別機」を作る
 https://qiita.com/too-ai/items/4fad0239b8b3c465fe6d
 
 ## Pythonの基本
