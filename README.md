@@ -28,4 +28,11 @@ https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
 - Pythonビギナーズガイド（関数編）
 https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
 
+## 仮想環境構築
+- 公式
+https://virtualenv.pypa.io/en/stable/installation/
+- Qiita virtualenvでpython環境を管理する
+https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
+
+
 ## gitとGithubを上手く使えなくて挫折しそう
