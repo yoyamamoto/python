@@ -36,12 +36,12 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 
 ### 仮想環境構築
 <code>
-/*PowerShellのスクリプト実行許可*/
-$ virtualenv --no-site-packages PythonTest
-/*仮想環境に入る*/
-$ ./ENV/Scripts/activate
-/*仮想環境を抜ける*/
-(ENV)$ deactivate
+/*PowerShellのスクリプト実行許可*/  
+$ virtualenv --no-site-packages PythonTest  
+/*仮想環境に入る*/  
+$ ./ENV/Scripts/activate  
+/*仮想環境を抜ける*/  
+(ENV)$ deactivate  
 </code>
 
 ### Powershellで仮想環境を一時的に実行する方法
