@@ -28,3 +28,4 @@ https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
 Pythonビギナーズガイド（関数編）
 https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
 
+## gitとGithubを上手く使えなくて挫折しそう
