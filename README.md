@@ -34,5 +34,10 @@ https://virtualenv.pypa.io/en/stable/installation/
 - Qiita virtualenvでpython環境を管理する
 https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 
+### Powershellで仮想環境を一時的に実行する方法
+<code>
+Set-ExecutionPolicy RemoteSigned -Scope Process
+</code>
+
 
 ## gitとGithubを上手く使えなくて挫折しそう
