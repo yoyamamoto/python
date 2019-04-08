@@ -41,7 +41,7 @@ $ virtualenv --no-site-packages PythonTest
 /*仮想環境に入る*/  
 $ ./ENV/Scripts/activate  
 /*仮想環境を抜ける*/  
-(ENV)$ deactivate  
+(ENV)$ deactivate
 </code>
 
 ### Powershellで仮想環境を一時的に実行する方法
