@@ -27,6 +27,8 @@ https://qiita.com/egoa56/items/d39463ee9d8ba032666b
 https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
 - Pythonビギナーズガイド（関数編）
 https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
+- Pythonのコードをきれいに書くコツ
+https://qiita.com/yinawekuky/items/28d973a653e9825ed582
 
 ## 仮想環境構築 インストール
 - 公式
