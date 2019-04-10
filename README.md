@@ -29,6 +29,8 @@ https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
 https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
 - Pythonのコードをきれいに書くコツ
 https://qiita.com/yinawekuky/items/28d973a653e9825ed582
+- Pythonの公式ドキュメント 9. クラス
+https://docs.python.org/ja/3/tutorial/classes.html#class-definition-syntax
 
 ## 仮想環境構築 インストール
 - 公式
