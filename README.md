@@ -13,11 +13,11 @@
 1. 切り抜かれた画像が出力・保存されます。
 
 ０２）
-1. TensorFlowで画像認識させます。
+1. TensorFlowで画像認識させます。https://www.tensorflow.org/
 1. チュートリアル通りに作ります。
 1. なんかいい感じにできます。
 
-※ チュートリアル
+※ TensorFlowで画像認識「〇〇判別機」を作る
 https://qiita.com/too-ai/items/4fad0239b8b3c465fe6d
 
 ## Pythonの基本
@@ -27,5 +27,33 @@ https://qiita.com/egoa56/items/d39463ee9d8ba032666b
 https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
 - Pythonビギナーズガイド（関数編）
 https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
+- Pythonのコードをきれいに書くコツ
+https://qiita.com/yinawekuky/items/28d973a653e9825ed582
+
+## 仮想環境構築 インストール
+- 公式
+https://virtualenv.pypa.io/en/stable/installation/
+- Qiita virtualenvでpython環境を管理する
+https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
+
+### 仮想環境構築
+    # PowerShellのスクリプト実行許可
+    $ virtualenv --system-site-packages -p python3 ./ENV
+    # 仮想環境に入る
+    $ ./ENV/Scripts/activate
+    # 仮想環境を抜ける
+    (ENV)$ deactivate
+    # パッケージのインストール
+    (ENV)$ pip install --upgrade pip
+    (ENV)$ pip list
+    (ENV)$ pip install パッケージ
+    (ENV)$ pip install --upgrade tensorflow
+    (ENV)$ python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+
+https://www.tensorflow.org/install/pip
+
+### Powershellで仮想環境を一時的に実行する方法
+    Set-ExecutionPolicy RemoteSigned -Scope Process
+
 
 ## gitとGithubを上手く使えなくて挫折しそう
