@@ -1,17 +1,25 @@
-class Class_Sample():
+# coding :utf-8
+from pprint import pprint
+
+class Class_Sample:
     _var = 'member'
 
     def __new__(self):
-        self._var = 'new'
+        print('new')
+        pprint(self)
     
     def __init__(self):
-        self._var = 'init'
+        print('init')
     
     def __del__(self):
-        return 'delete' + self._var
+        print('del')
 
     def __str__(self):
-        return 'printした時に実行される特殊関数' + self._var
+        print('str')
+
+#class Class_sub(Class_Sample):
+
 
 # これクラスを直接プリントできるんだけどどういう事なんだ。
-print(Class_Sample())
+Class_Sample()
+
