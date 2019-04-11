@@ -29,6 +29,8 @@ https://qiita.com/egoa56/items/a74e1aa64bec603d15cd
 https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
 - Pythonのコードをきれいに書くコツ
 https://qiita.com/yinawekuky/items/28d973a653e9825ed582
+- Pythonの公式ドキュメント 9. クラス
+https://docs.python.org/ja/3/tutorial/classes.html#class-definition-syntax
 
 ## 仮想環境構築 インストール
 - 公式
@@ -38,12 +40,14 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 
 ### 仮想環境構築
     # PowerShellのスクリプト実行許可
-    $ virtualenv --system-site-packages -p python3 ./ENV
-    # 仮想環境に入る
+    Set-ExecutionPolicy RemoteSigned -Scope Process
+    # 仮想環境ENV（*任意）を構築する
+    $ mkvirtualenv --system-site-packages ./ENV
+    # 仮想環境を起動
     $ ./ENV/Scripts/activate
-    # 仮想環境を抜ける
+    # 仮想環境を終了
     (ENV)$ deactivate
-    # パッケージのインストール
+    # 仮想環境（ENV）へパッケージのインストール
     (ENV)$ pip install --upgrade pip
     (ENV)$ pip list
     (ENV)$ pip install パッケージ
