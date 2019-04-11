@@ -39,10 +39,10 @@ https://virtualenv.pypa.io/en/stable/installation/
 https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 
 ### 仮想環境構築
-    # PowerShellのスクリプト実行許可
+    # Powershellで仮想環境を一時的に実行する方法
     Set-ExecutionPolicy RemoteSigned -Scope Process
     # 仮想環境ENV（*任意）を構築する
-    $ mkvirtualenv --system-site-packages ./ENV
+    $ virtualenv --no-site-packages ./ENV
     # 仮想環境を起動
     $ ./ENV/Scripts/activate
     # 仮想環境を終了
@@ -56,8 +56,6 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 
 https://www.tensorflow.org/install/pip
 
-### Powershellで仮想環境を一時的に実行する方法
-    Set-ExecutionPolicy RemoteSigned -Scope Process
-
-
 ## gitとGithubを上手く使えなくて挫折しそう
+## .gitignoreを理解するのが辛い
+
