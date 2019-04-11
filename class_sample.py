@@ -6,10 +6,11 @@ class Class_Sample:
 
     def __new__(self):
         print('new')
-        pprint(self)
+        #pprint(self)
     
-    def __init__(self):
+    def __init__():
         print('init')
+
     
     def __del__(self):
         print('del')
@@ -17,9 +18,16 @@ class Class_Sample:
     def __str__(self):
         print('str')
 
-#class Class_sub(Class_Sample):
+class Class_Sub(Class_Sample):
+    pass
 
+"""
+    Class_Sample() # output new
+    sub = Class_Sub() # output new
+    pprint(sub.__init__) # <function Class_sample.__init__ at 0x039AF780>
+"""
 
-# これクラスを直接プリントできるんだけどどういう事なんだ。
-Class_Sample()
+test = Class_Sample
+
+pprint(test)
 

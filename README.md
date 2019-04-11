@@ -42,7 +42,7 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
     # PowerShellのスクリプト実行許可
     Set-ExecutionPolicy RemoteSigned -Scope Process
     # 仮想環境ENV（*任意）を構築する
-    $ virtualenv --system-site-packages -p python3 ./ENV
+    $ mkvirtualenv --system-site-packages ./ENV
     # 仮想環境を起動
     $ ./ENV/Scripts/activate
     # 仮想環境を終了
