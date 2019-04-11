@@ -57,3 +57,5 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 https://www.tensorflow.org/install/pip
 
 ## gitとGithubを上手く使えなくて挫折しそう
+## .gitignoreを理解するのが辛い
+
