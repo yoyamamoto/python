@@ -41,7 +41,7 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 ### 仮想環境構築
     # Powershellで仮想環境を一時的に実行する方法
     Set-ExecutionPolicy RemoteSigned -Scope Process
-    # 仮想環境ENV（*任意）を構築する
+    # 仮想環境ENV（*任意）を構築する ← tensorflowを使うにはpython 3.6.6以下でないといけないのでversion指定をする
     $ virtualenv --no-site-packages ./ENV
     # 仮想環境を起動
     $ ./ENV/Scripts/activate
@@ -57,5 +57,4 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 https://www.tensorflow.org/install/pip
 
 ## gitとGithubを上手く使えなくて挫折しそう
-## .gitignoreを理解するのが辛い
-
+## .gitignore処理
