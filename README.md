@@ -33,16 +33,14 @@ https://qiita.com/yinawekuky/items/28d973a653e9825ed582
 https://docs.python.org/ja/3/tutorial/classes.html#class-definition-syntax
 
 ## 仮想環境構築 インストール
-- 公式
-https://virtualenv.pypa.io/en/stable/installation/
-- Qiita virtualenvでpython環境を管理する
-https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
+- python 3.3以上から、vertualenvはpythonに組み込まれ、venvという仮想環境を構築できるがある模様。
 
 ### 仮想環境構築
+    # python 3.6.8をインストール
     # Powershellで仮想環境を一時的に実行する方法
     Set-ExecutionPolicy RemoteSigned -Scope Process
     # 仮想環境ENV（*任意）を構築する ← tensorflowを使うにはpython 3.6.6以下でないといけないのでversion指定をする
-    $ virtualenv --no-site-packages ./ENV
+    $ python -m venv ./ENV
     # 仮想環境を起動
     $ ./ENV/Scripts/activate
     # 仮想環境を終了
@@ -56,5 +54,10 @@ https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7
 
 https://www.tensorflow.org/install/pip
 
-## gitとGithubを上手く使えなくて挫折しそう
-## .gitignore処理
+#進捗
+- python標準機能venvで仮想環境を構築し、無事tensorflowをインストールできたとおもったら、アクセスが拒否されましたとエラーが出てきてオコ。
+
+# 問題点20190412
+- Win10 64bit、Python3.6.8のインストール時に、全ユーザ共通フォルダ/root/"program file"/へインストールすると、pipでパッケージをインストールした際に環境Pathが設定されない。
+- Win10 64bit、python3.6.8でvirtualenvをpipでインストールすると環境構築後の./ENV/Scripts/フォルダ内にactivateが生成されない。
+- gitとGithubを上手く使えなくて挫折しそう

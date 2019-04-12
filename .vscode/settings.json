@@ -8,6 +8,7 @@
     ],
     "python.unitTest.pyTestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.unittestEnabled": true,
-    "python.pythonPath": "ENV\\Scripts\\python.exe"
+    "python.unitTest.unittestEnabled": false,
+    "python.pythonPath": "C:\\Program Files\\Python36\\python.exe",
+    "python.unitTest.promptToConfigure": false
   }
