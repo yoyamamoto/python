@@ -37,6 +37,9 @@ http://www.nct9.ne.jp/m_hiroi/light/index.html#python
 https://docs.python.org/ja/3.6/library/tkinter.html#tkinter-modules
 - PythonのGUI Toolkit比較(Tkinter, PyQt5, wxPython) パーティクルのアニメーション
 https://pid123.blogspot.com/2017/08/python-gui-toolkit.html
+- PythonのTkinterを使ってみる
+https://qiita.com/nnahito/items/ad1428a30738b3d93762
+
 
 ## 仮想環境構築 インストール
 - python 3.3以上から、vertualenvはpythonに組み込まれ、venvという仮想環境を構築できるがある模様。
