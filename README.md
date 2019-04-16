@@ -31,6 +31,12 @@ https://qiita.com/egoa56/items/03a9ce47ac46981d9e8b
 https://qiita.com/yinawekuky/items/28d973a653e9825ed582
 - Pythonの公式ドキュメント 9. クラス
 https://docs.python.org/ja/3/tutorial/classes.html#class-definition-syntax
+- お気楽 Python プログラミング入門
+http://www.nct9.ne.jp/m_hiroi/light/index.html#python
+- tkinter GUI モジュール
+https://docs.python.org/ja/3.6/library/tkinter.html#tkinter-modules
+- PythonのGUI Toolkit比較(Tkinter, PyQt5, wxPython) パーティクルのアニメーション
+https://pid123.blogspot.com/2017/08/python-gui-toolkit.html
 
 ## 仮想環境構築 インストール
 - python 3.3以上から、vertualenvはpythonに組み込まれ、venvという仮想環境を構築できるがある模様。
@@ -95,3 +101,4 @@ https://www.tensorflow.org/install/pip
 ## Gitの七不思議
 - ローカル・リモートブランチdevelopを消して、新たに同名のローカルブランチdevelopを作り直すと、消したはずのファイルが復活している。なんで？？？？？？？
 - rebase -i HEAD~10 とかのrebaseコマンドでコミット履歴 だけ を削除したいのにファイルまで戻る。reset soft をたたくとエラーがです。なんで？？？？？？？？？？
+
